@@ -1,0 +1,71 @@
+
+/* To change the background color of the whole we page*/
+body {
+    background-color: #e1d5e4;
+  } 
+  
+/*To change the font and its size, and set alignment to center*/
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+  }
+
+/*To change background color of the heading*/
+.bg {
+    background-color: #ca2a2a;
+    border: 5px solid #ccc;
+}
+
+/*To add padding to the featured image*/
+img {
+    padding-bottom: 30px;
+  }
+
+/*To graying out images which are not selected*/
+#imageList img {
+    filter: grayscale(100%);
+}
+
+#imageList img.selected {
+    filter: none;
+}
+
+/*To add styling to the caption of the image which is being clicked and featured*/
+figcaption.selected {
+    color: white;
+    font-size: 20px;
+    background-color: #ca2a2a;
+    border: 5px solid #ccc;
+}
+
+/*To display the images in the list in horizontal line and in center*/
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+/*To remove bullet points which were being showed under the images in the list by setting the list-style to none*/
+#gallery ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+/*To add styling to every image displyed in the list at the bottom of the page*/
+#gallery ul li {
+    margin: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+  }
+
+/*To align the caption of the image being featured when clicked*/
+#gallery figcaption {
+    text-align: center;
+  }
+
+  
+  
